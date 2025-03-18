@@ -6,6 +6,7 @@ body {
 	height: 100vh;
 }
 .box{
+	padding: 10%;
 	display: flex;
 	justify-items: center;
 	align-items: center;
