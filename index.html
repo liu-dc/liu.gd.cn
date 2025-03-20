@@ -1,15 +1,16 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="zh">
-<head>
-	<title>LDC</title>
-	<link rel="stylesheet" href="style.css" />
-</head>
-<body>
-	<div class="box">
-		<div><img src="./ldc.png" alt="ldc" /></div>
-		<div>
-			<h2>欢迎来到我的网站</h2>
-		</div>
-	</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+    <% if (isProd) { %>
+    <script src="/cdn/react@18/umd/react.production.min.js"></script>
+    <script src="/cdn/react-dom@18/umd/react-dom.production.min.js"></script>
+    <% } %>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
