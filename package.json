@@ -1,8 +1,8 @@
 {
-  "title": "React 模板示例",
-  "flag": "Development",
-  "name": "app-template-react",
-  "description": "描述",
+  "title": "LDC",
+  "flag": "liu.gd.cn",
+  "name": "liu.gd.cn",
+  "description": "刘东才的个人网站",
   "private": true,
   "version": "0.0.1",
   "type": "module",
