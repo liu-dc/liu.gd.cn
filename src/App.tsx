@@ -23,7 +23,7 @@ function App() {
         <TextField.Root
           size="3"
           mx="2"
-          placeholder="百度一下"
+          placeholder="搜索一下"
           onKeyDown={onEnter}
         >
           <TextField.Slot>
@@ -31,44 +31,6 @@ function App() {
           </TextField.Slot>
         </TextField.Root>
       </Box>
-      <Flex direction="row" gap="2" wrap={"wrap"} mx="2">
-        <Button>
-          <BookmarkIcon /> Bookmark
-        </Button>
-        <Button>
-          <BookmarkIcon /> Bookmark
-        </Button>
-        <Button>
-          <BookmarkIcon /> Bookmark
-        </Button>
-        <Button>
-          <BookmarkIcon /> Bookmark
-        </Button>
-        <Button>
-          <BookmarkIcon /> Bookmark
-        </Button>
-        <Button>
-          <BookmarkIcon /> Bookmark
-        </Button>
-        <Button>
-          <BookmarkIcon /> Bookmark
-        </Button>
-        <Button>
-          <BookmarkIcon /> Bookmark
-        </Button>
-        <Button>
-          <BookmarkIcon /> Bookmark
-        </Button>
-        <Button>
-          <BookmarkIcon /> Bookmark
-        </Button>
-        <Button>
-          <BookmarkIcon /> Bookmark
-        </Button>
-        <Button>
-          <BookmarkIcon /> Bookmark
-        </Button>
-      </Flex>
     </Flex>
   );
 }
