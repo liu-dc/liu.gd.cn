@@ -4,7 +4,8 @@ import App from "./App.tsx";
 import { Theme } from "@radix-ui/themes";
 
 createRoot(document.getElementById("root")!).render(
-  <Theme>
+  <Theme accentColor="red">
     <App />
+    {/* <ThemePanel /> */}
   </Theme>
 );
