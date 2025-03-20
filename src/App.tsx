@@ -1,7 +1,7 @@
-import { Box, Button, Flex, TextField } from "@radix-ui/themes";
+import { Box, Flex, TextField } from "@radix-ui/themes";
 import "./App.scss";
 import "@radix-ui/themes/styles.css";
-import { BookmarkIcon, MagnifyingGlassIcon } from "@radix-ui/react-icons";
+import { MagnifyingGlassIcon } from "@radix-ui/react-icons";
 const toBaidu = (wd: string) => {
   const url = `https://www.baidu.com/s?wd=${wd}`;
   window.location.href = url;
